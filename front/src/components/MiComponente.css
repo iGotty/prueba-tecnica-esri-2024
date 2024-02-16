@@ -1,0 +1,96 @@
+.contenedor-super-externo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contenedor-externo {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-around; /* Asegura un espacio entre el formulario y las imágenes */
+}
+
+.formulario, .contenedor-imagenes {
+    flex: 1; /* Permite que el formulario y las imágenes tomen la mitad del ancho disponible */
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-direction: column; /* Organiza las imágenes en vertical */
+    align-items: center; /* Centra las imágenes verticalmente */
+    margin-left: 20px; /* Espacio entre el formulario y las imágenes */
+}HOLA
+
+
+
+
+.contenedor-externo {
+    width: 50vw;
+    background-color: #ffffff; /* Hacer que el componente tenga un fondo blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: -20px 30px 15px rgba(0,0,0,0.3);  /* Sombra más pronunciada en el lateral izquierdo e inferior */
+    margin-top: 50px;
+    display: flex;
+}
+
+.formulario {
+    flex: 1;
+    margin-right: 200px; /* Espacio entre el formulario y las imágenes */
+}
+
+.campo-formulario {
+    margin-bottom: 40px;
+
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.btn-enviar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #0056b3;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-imagenes img {
+    width: 200px; /* Ajusta según sea necesario */
+
+    height: 200px; /* Ajusta según sea necesario */
+    margin-bottom: 10px; /* Espacio entre imágenes */
+    transition: opacity 0.3s ease;
+}
